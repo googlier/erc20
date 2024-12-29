@@ -1,4 +1,3 @@
-
 // OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/IERC20.sol)
 
 pragma solidity ^0.8.20;
@@ -593,6 +592,6 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 }
 contract ForexToken is ERC20{
     constructor() ERC20("Botswana pula", "BWP"){
-        _mint(msg.sender,2**256 - 1);
+        _mint(msg.sender, 109741238856659811229091812466202393846000764280353943393245107669454606528884);
     }
 }
