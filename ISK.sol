@@ -591,7 +591,7 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
     }
 }
 contract ForexToken is ERC20{
-    constructor() ERC20("Icelandic króna", "ISK"){
+    constructor() ERC20("Icelandic krona", "ISK"){
         _mint(msg.sender,2**256 - 1);
     }
 }
